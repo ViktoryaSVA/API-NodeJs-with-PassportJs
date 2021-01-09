@@ -4,7 +4,11 @@
     "password": "root",
     "database": "passport_demo",
     "host": "127.0.0.1",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "secret": "secret",
+    "refreshTokenSecret": "refreshSecret",
+    "tokenLife": 900,
+    "refreshTokenLife": 86400
   },
   "test": {
     "username": "root",
